@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4c50476-fbfe-468e-b3a8-7935c691852a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ah.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ak.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/an.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ao.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/at.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ax.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/g.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/t.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/u.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/flex.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
