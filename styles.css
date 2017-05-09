@@ -14,6 +14,7 @@ div #nav {
     height: 150px;
     background-image: url("ax.jpg");
     background-repeat: repeat;
+    border-bottom: 2px solid gray;
 
 }
 
@@ -45,10 +46,17 @@ li a {
     list-style: none;
     text-decoration: none;
     padding: 30px;
-    text-transform: capitalize;
-    font-size: 24px;
-    font-weight: 400;
-    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 1px;
+}
+
+li a:hover {
+    color: #ff4b9d;
+    text-decoration: none;
+    font-family: "Raleway Dots", cursive ;
+    font-size: 22px;
 }
 
 div #logo span {
@@ -67,26 +75,29 @@ div #logo span span {
 }
 
 h1 {
-
     margin: 0;
     padding: 40px 80px;
     font-size: 70px;
-    border-bottom: 1px solid white;
+    border-bottom: 4px solid white;
     width: 30%;
-    font-weight: 200;
-    text-shadow: 2x 2px 2px black;
+    font-weight: 100;
+    font-family: Raleway , cursive;
+
 
 }
 h1 span {
+    font-family: Raleway, cursive;
     color: #96ff00;
     font-weight: 600;
+
 }
 
 p {
     width: 60%;
     padding: 30px 14%;
-    font-size: 20px;
-    color: #fff7ee;
+    font-size: 22px;
+    color: #fffbf0;
+    font-weight: 100;
 
 
 }
