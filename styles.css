@@ -6,36 +6,21 @@ html, body {
     background-image: url("ao.gif");
 }
 
-header {
-    margin: 0;
-}
-
-
-div #nav {
+.nav {
+    position: absolute;
+    top:0;
+    color: gray;
     width: 100%;
     height: 150px;
     background-image: url("ax.jpg");
-    background-repeat: repeat;
     border-bottom: 2px solid gray;
 
 }
 
-#nav ul {
-    flex-flow: row wrap;
-    justify-content: flex-end;
-}
-
-.top {
-    margin: 0;
-    /*background-color: black;*/
-
-    color: gray;
-    width: 100%;
-}
-
 ul {
     display: flex;
-    margin: 0;
+    justify-content: flex-end;
+
 }
 
 li {
@@ -52,7 +37,8 @@ li a {
     font-weight: 200;
     text-shadow: 2px 2px 5px black;
     letter-spacing: 1px;
-    mix-blend-mode: difference;
+    /*mix-blend-mode: difference;*/
+
 }
 
 li a:hover {
@@ -69,12 +55,24 @@ div #logo span {
     font-size: 30px;
     font-weight: 200;
     color: white;
+
 }
 
 div #logo span span {
     position: static;
     color: #96ff00;
     font-weight: 800;
+
+}
+
+section {
+    position: relative;
+    top: 200px;
+    color: #fffbf0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
 }
 
 h1 {
@@ -115,15 +113,20 @@ p span {
 #hipster h1, #hipster h2{
     font-family: 'Lobster', cursive;
     font-weight: bold;
+
+
 }
 
 #hipster h1{
     padding-bottom: 24px;
+
 }
 
 #hipster h3{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+
+
 }
 
 #hipster p{
@@ -131,10 +134,8 @@ p span {
 
 }
 
-section {
-    color: #fffbf0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
 
-}
+
+/*colors:*/
+/*color: rgb(255,204,0);*/
+/*color: rgb(27,173,248);*/
