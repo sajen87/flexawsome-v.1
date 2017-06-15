@@ -2,13 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">`
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="styles.css" rel="stylesheet" type="text/css">
 
     <title>Flex</title>
@@ -16,48 +14,70 @@
 <body>
 <header>
     <div class="nav">
+        <input id="burger" type="checkbox"/>
+        <label for="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
 
-            <!--<div id="logo"><span>price.<span>less</span></span></div>-->
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">My work</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <!--<div id="logo"><span>price.<span>less</span></span></div>-->
+        <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
     </div>
 
 </header>
 
 <section>
 
-    <div class="col-md-6">
+    <article class="left">
+
         <h1>flex<span>.box</span></h1>
+        <p>
+            <strong>Strong if available senectus et netus</strong> et malesuada fames ac turpis egestas. <em>Italic if
+            available, mauris placerat</em> eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
+            Vestibulum erat wisi, condimentum sed, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt
+            condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. in turpis pulvinar facilisis. Ut
+            felis.</p>
+        <p><span class="smallCaps">This is text in <b>small caps</b> next to</span> text that is not. Quisque sit amet
+            est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, ornare sit amet, wisi. </p>
 
-        <article>
-            <p>
-                <strong>Strong if available senectus et netus</strong> et malesuada fames ac turpis egestas. <em>Italic if available, mauris placerat</em> eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. in turpis pulvinar facilisis. Ut felis.</p>
-            <p><span class="smallCaps">This is text in <b>small caps</b> next to</span> text that is not. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, ornare sit amet, wisi. </p>
+    </article>
 
-        </article>
-    </div>
-        <article>
-            <div class="col-md-6">
-            <section id="hipster" class="example">
-                <h1>Lobster and Raleway</h1>
-                <h2>I’m a Hipster Type</h2>
-                <p>Lorem ipsum dolor sit amet, te sea meis autem, sea tractatos incorrupte an, sed ea euismod scripserit. Quidam nonumes pro eu, duo propriae consetetur eu. Ad soluta animal sea, ea nam nominavi delectus pertinacia.
-                </p>
-                <h3>Header Level 3 — using larger version of body font</h3>
-                <p><strong>Strong if available senectus et netus</strong> et malesuada fames ac turpis egestas. <em>Italic if available, mauris placerat</em> eleifend leo.  Ut felis.
-                <p><span class="allCaps">This is text in <b>all caps</b> next to</span> text that is not.  </p>
+    <article class="right">
 
-            </section>
+        <div id="hipster" class="example">
+            <h1>Lobster and Raleway</h1>
+            <h2>I’m a Hipster Type</h2>
+            <div class="p_info">
+                <p>Lorem <span>info</span>ipsum dolor sit<span>share</span> amet, con<span>academy</span>sectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            </div>
+            <h3>Header Level 3 — Check for yellow letters above!</h3>
+            <p><strong>Strong if available senectus et netus</strong> et malesuada fames ac turpis egestas. <em>Italic
+                if available, mauris placerat</em> eleifend leo. Ut felis.
+            <p><span class="allCaps">This is text in <b>all caps</b> next to</span> text that is not. </p>
 
-            </div></article>
+        </div>
 
-    <!--</div>-->
+
+    </article>
+
+
 </section>
 
 
 </body>
 </html>
+
+
+<!--<p>Lorem <span>i</span>p<span>n</span>s<span>f</span>u<span>o</span>m dlr t <span>s</span>a<span>h</span>m<span>a</span>e<span>r</span>t<span>e</span>, te sa meias autem, sea <span>a</span>t<span>c</span>a<span>a</span>c<span>d</span>t<span>e</span>a<span>m</span>t<span>y</span>os incorrupte n, sed ea eismo scripserit.-->
+    <!--Qida nonumes pro eu, do propriae consetetur eu. Ad soluta animal sea, ea nam nominavi delectus-->
+    <!--pertinacia.-->
+<!--</p>-->
