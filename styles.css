@@ -3,7 +3,9 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Raleway, cursive;
-    background-image: url("ao.gif");
+    /*background-image: url("ao.gif");*/
+
+    background-image: url("at.png");
     background-repeat: repeat;
 
 }
@@ -14,7 +16,9 @@ html, body {
     color: gray;
     width: 100%;
     height: 150px;
-    background-image: url("ax.jpg");
+    /*background-image: url("ax.jpg");*/
+
+    background-image: url("aw.png");
     border-bottom: 2px solid white;
     display: flex;
     flex-direction: row;
@@ -143,6 +147,7 @@ p span {
 #hipster h1 {
     font-family: 'Lobster', cursive;
     font-weight: bold;
+    mix-blend-mode: difference;
 
 }
 
