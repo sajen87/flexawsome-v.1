@@ -226,8 +226,8 @@ p span {
         text-align: right;
         text-decoration: none;
         text-transform: uppercase;
-        padding: 30px;
-        font-size: 14px;
+        /*padding: 30px;*/
+        font-size: 11px;
     }
 
     body input:checked ~ nav {
@@ -246,17 +246,12 @@ p span {
         border-bottom: none;
     }
 
-    li {
-    display: block;
-    text-align: right;
-        list-style: none;
-    }
 
     li a:hover {
         padding-bottom: 3px;
         color: rgb(255, 41, 104);
         font-family: Raleway, cursive;
-        font-size: 14px;
+        font-size: 11px;
         border-bottom: none;
     }
 
@@ -264,7 +259,9 @@ p span {
         color: white;
 
     }
-
+    ul {
+        margin: -6px 0;
+    }
     .left {
 
         letter-spacing: 1px;
