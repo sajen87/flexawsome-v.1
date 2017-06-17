@@ -239,8 +239,8 @@ p span {
 
     body input ~ nav > ul > li > a {
         text-decoration: none;
-        text-transform: uppercase;
-        padding: 30px;
+        /*text-transform: uppercase;*/
+        /*padding: 30px;*/
         font-size: 14px;
     }
 
@@ -258,6 +258,8 @@ p span {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        padding: 0;
+        margin: 0;
     }
 
     .nav {
@@ -267,9 +269,15 @@ p span {
 
     }
 
+    li a {
+        padding: 0 7px;
+        font-size: 11px;
+        color: rgb(255, 204, 0);
+    }
+
     section {
         position: absolute;
-        top: 80px;
+        top: 45px;
         color: #fffbf0;
         margin: 0;
         display: flex;
@@ -289,6 +297,14 @@ p span {
         padding: 0 5%;
     }
 
+    article h1 {
+        font-size: 50px;
+    }
+
+    article p {
+        font-size: 20px;
+    }
+
     .right {
         padding: 0;
         width: 100%;
@@ -297,6 +313,10 @@ p span {
         top: 150px;
         letter-spacing: 1px;
 
+    }
+
+    p span {
+        font-size: 25px;
     }
 
     li a:hover {
